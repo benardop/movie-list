@@ -72,7 +72,7 @@
 To get a local copy up and running, follow these steps.
 ````
 git clone https://github.com/benardop/movie-list.git
-cd movie-gold-v1
+cd movie-list
 ````
 
 ### Prerequisites
