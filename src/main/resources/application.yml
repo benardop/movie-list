@@ -1,0 +1,6 @@
+server:
+  port: 5000
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://user1:userTest@cluster0.rfwwszr.mongodb.net/order-db?retryWrites=true&w=majority
