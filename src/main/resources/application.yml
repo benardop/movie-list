@@ -3,4 +3,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://user1:userTest@cluster0.rfwwszr.mongodb.net/order-db?retryWrites=true&w=majority
+      uri: mongodb+srv://${env.MONGO_USER}:${env.MONGO_PASSWORD}@${env.MONGO_CLUSTER}/order-db?retryWrites=true&w=majority
